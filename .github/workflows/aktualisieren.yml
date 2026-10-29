@@ -1,0 +1,33 @@
+name: Kalender aktualisieren
+
+on:
+  schedule:
+    - cron: '0 5,17 * * *'   # täglich 06/07 und 18/19 Uhr Mallorca-Zeit
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['build.mjs']
+
+permissions:
+  contents: write
+
+jobs:
+  bauen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node build.mjs
+      - name: Änderungen speichern
+        run: |
+          git config user.name "kalender-bot"
+          git config user.email "kalender-bot@users.noreply.github.com"
+          git add docs
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen."
+          else
+            git commit -m "Termine aktualisiert"
+            git push
+          fi

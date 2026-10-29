@@ -1,0 +1,141 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//germania-kalender//Fan-Abo//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:FC Germania Mallorca
+X-WR-TIMEZONE:Europe/Madrid
+X-WR-CALDESC:Spiele\, Events und Partys von FC Germania Mallorca
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VTIMEZONE
+TZID:Europe/Madrid
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:15e6e794-39a9-42ec-bb46-f5ea7021aa0a@germania-kalender
+DTSTAMP:20261029T122918Z
+DTSTART;TZID=Europe/Madrid:20261101T190000
+DTEND;TZID=Europe/Madrid:20261101T210000
+SUMMARY:⚽ FC Germania Mallorca vs C. F. Playa de Palma
+LOCATION:Carrer Lliri\, 2\, 07141 Marratxinet\, Illes Balears
+DESCRIPTION:Heimspiel\nRoute: https://www.google.com/maps/search/?api=1&que
+ ry=Carrer%20Lliri%2C%202%2C%2007141%20Marratxinet%2C%20Illes%20Balears\nAl
+ le Termine: https://www.germaniamallorca.com/kalender
+URL:https://www.germaniamallorca.com/kalender
+END:VEVENT
+BEGIN:VEVENT
+UID:9191dc59-e096-4f85-882d-c73746133684@germania-kalender
+DTSTAMP:20261029T122918Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:⚽ FC Germania Mallorca vs Independiente C/R
+LOCATION:Carrer Lliri\, 2\, 07141 Marratxinet\, Illes Balears
+DESCRIPTION:Heimspiel\nUhrzeit steht noch nicht fest\nRoute: https://www.go
+ ogle.com/maps/search/?api=1&query=Carrer%20Lliri%2C%202%2C%2007141%20Marra
+ txinet%2C%20Illes%20Balears\nAlle Termine: https://www.germaniamallorca.co
+ m/kalender
+URL:https://www.germaniamallorca.com/kalender
+END:VEVENT
+BEGIN:VEVENT
+UID:70045018-f9b0-4f76-9c5b-3cddce57c84e@germania-kalender
+DTSTAMP:20261029T122918Z
+DTSTART;TZID=Europe/Madrid:20261114T180000
+DTEND;TZID=Europe/Madrid:20261114T200000
+SUMMARY:⚽ C.D. Sillot vs FC Germania Mallorca
+LOCATION:Carrer de la Proa\, 2\, 07680 Porto Cristo\, Illes Balears
+DESCRIPTION:Auswärtsspiel\nRoute: https://www.google.com/maps/search/?api=
+ 1&query=Carrer%20de%20la%20Proa%2C%202%2C%2007680%20Porto%20Cristo%2C%20Il
+ les%20Balears\nAlle Termine: https://www.germaniamallorca.com/kalender
+URL:https://www.germaniamallorca.com/kalender
+END:VEVENT
+BEGIN:VEVENT
+UID:85f8e33e-2d96-41f4-8b3d-a70ed34b9116@germania-kalender
+DTSTAMP:20261029T122918Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:⚽ FC Germania Mallorca vs Santa Ponsa CF "B"
+LOCATION:Carrer Lliri\, 2\, 07141 Marratxinet\, Illes Balears
+DESCRIPTION:Heimspiel\nUhrzeit steht noch nicht fest\nRoute: https://www.go
+ ogle.com/maps/search/?api=1&query=Carrer%20Lliri%2C%202%2C%2007141%20Marra
+ txinet%2C%20Illes%20Balears\nAlle Termine: https://www.germaniamallorca.co
+ m/kalender
+URL:https://www.germaniamallorca.com/kalender
+END:VEVENT
+BEGIN:VEVENT
+UID:ac6487d9-5d12-4439-8ce7-160248bf9b38@germania-kalender
+DTSTAMP:20261029T122918Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:⚽ Margaritense Atlètic vs FC Germania Mallorca
+LOCATION:Diseminado s'Estanyol\, 146\, 07450 Santa Margalida\, Balearic Isl
+ ands
+DESCRIPTION:Auswärtsspiel\nUhrzeit steht noch nicht fest\nRoute: https://w
+ ww.google.com/maps/search/?api=1&query=Diseminado%20s'Estanyol%2C%20146%2C
+ %2007450%20Santa%20Margalida%2C%20Balearic%20Islands\nAlle Termine: https:
+ //www.germaniamallorca.com/kalender
+URL:https://www.germaniamallorca.com/kalender
+END:VEVENT
+BEGIN:VEVENT
+UID:136ffe6e-15da-4eb8-a322-bed9182f2de5@germania-kalender
+DTSTAMP:20261029T122918Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:⚽ FC Germania Mallorca vs Mallorca City FC
+LOCATION:Carrer Lliri\, 2\, 07141 Marratxinet\, Illes Balears
+DESCRIPTION:Heimspiel\nUhrzeit steht noch nicht fest\nRoute: https://www.go
+ ogle.com/maps/search/?api=1&query=Carrer%20Lliri%2C%202%2C%2007141%20Marra
+ txinet%2C%20Illes%20Balears\nAlle Termine: https://www.germaniamallorca.co
+ m/kalender
+URL:https://www.germaniamallorca.com/kalender
+END:VEVENT
+BEGIN:VEVENT
+UID:4cf5ccb5-e080-4aa7-8e08-2eab520089b8@germania-kalender
+DTSTAMP:20261029T122918Z
+DTSTART;TZID=Europe/Madrid:20261219T170000
+DTEND;TZID=Europe/Madrid:20261219T190000
+SUMMARY:⚽ Alqueria vs FC Germania Mallorca
+LOCATION:CamÍ de sa Teulera\, 13\, 07691 Santanyí\, Illes Balears
+DESCRIPTION:Auswärtsspiel\nRoute: https://www.google.com/maps/search/?api=
+ 1&query=Cam%C3%8D%20de%20sa%20Teulera%2C%2013%2C%2007691%20Santany%C3%AD%2
+ C%20Illes%20Balears\nAlle Termine: https://www.germaniamallorca.com/kalend
+ er
+URL:https://www.germaniamallorca.com/kalender
+END:VEVENT
+BEGIN:VEVENT
+UID:576e87b8-1ada-44c1-bf03-8372b7a6d8fd@germania-kalender
+DTSTAMP:20261029T122918Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:⚽ FC Germania Mallorca vs Palmanyola "A"
+LOCATION:Carrer Lliri\, 2\, 07141 Marratxinet\, Illes Balears
+DESCRIPTION:Heimspiel\nUhrzeit steht noch nicht fest\nRoute: https://www.go
+ ogle.com/maps/search/?api=1&query=Carrer%20Lliri%2C%202%2C%2007141%20Marra
+ txinet%2C%20Illes%20Balears\nAlle Termine: https://www.germaniamallorca.co
+ m/kalender
+URL:https://www.germaniamallorca.com/kalender
+END:VEVENT
+BEGIN:VEVENT
+UID:d9fdcc0e-105c-4240-b040-d2697c63ebaa@germania-kalender
+DTSTAMP:20261029T122918Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:⚽ Taujà vs FC Germania Mallorca
+DESCRIPTION:Auswärtsspiel\nUhrzeit steht noch nicht fest\nAlle Termine: ht
+ tps://www.germaniamallorca.com/kalender
+URL:https://www.germaniamallorca.com/kalender
+END:VEVENT
+END:VCALENDAR
