@@ -147,8 +147,14 @@ async function main() {
     'END:VCALENDAR',
   ].join('\r\n') + '\r\n';
 
-  await writeFile(new URL('germania.ics', AUSGABE), ics, 'utf8');
-  await writeFile(new URL('kalender.ics', AUSGABE), ics, 'utf8'); // kurzer Link vamosgermania.de/kalender.ics
+  // Nur schreiben, wenn sich inhaltlich etwas geändert hat (der Zeitstempel allein zählt nicht)
+  const ohneStempel = (t) => t.replace(/^DTSTAMP:.*$/gm, '');
+  let altIcs = '';
+  try { altIcs = await readFile(new URL('kalender.ics', AUSGABE), 'utf8'); } catch { /* erster Lauf */ }
+  if (ohneStempel(altIcs) !== ohneStempel(ics)) {
+    await writeFile(new URL('germania.ics', AUSGABE), ics, 'utf8');
+    await writeFile(new URL('kalender.ics', AUSGABE), ics, 'utf8'); // kurzer Link vamosgermania.de/kalender.ics
+  }
   await writeFile(speicherDatei, JSON.stringify(alle, null, 2) + '\n', 'utf8');
   console.log(`${liste.length} Termine geschrieben (${neu.length} von der Vereinsseite).`);
 }
