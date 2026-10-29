@@ -1,12 +1,12 @@
-# FC Germania Mallorca – Kalender zum Abonnieren
+﻿# FC Germania Mallorca â€“ Kalender zum Abonnieren
 
 Inoffizieller Fan-Kalender mit allen Spielen und Events von FC Germania Mallorca.
-Die Termine kommen von der öffentlichen Vereinsseite https://www.germaniamallorca.com/kalender
-und werden zweimal täglich automatisch aktualisiert.
+Die Termine kommen von der Ã¶ffentlichen Vereinsseite https://www.germaniamallorca.com/kalender
+und werden zweimal tÃ¤glich automatisch aktualisiert.
 
-**Abo-Link:** https://chk2008.github.io/germania-kalender/germania.ics
+**Abo-Link:** https://vamosgermania.de/kalender.ics
 
-- **iPhone:** Einstellungen → Kalender → Accounts → Account hinzufügen → Andere →
-  Kalenderabo hinzufügen → Link einfügen.
-- **Android (Google Kalender):** am Computer calendar.google.com öffnen → links bei
-  „Weitere Kalender“ auf + → „Per URL“ → Link einfügen.
+- **iPhone:** Einstellungen â†’ Kalender â†’ Accounts â†’ Account hinzufÃ¼gen â†’ Andere â†’
+  Kalenderabo hinzufÃ¼gen â†’ Link einfÃ¼gen.
+- **Android (Google Kalender):** am Computer calendar.google.com Ã¶ffnen â†’ links bei
+  â€žWeitere Kalenderâ€œ auf + â†’ â€žPer URLâ€œ â†’ Link einfÃ¼gen.
