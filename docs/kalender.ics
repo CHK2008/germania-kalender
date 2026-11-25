@@ -27,7 +27,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:15e6e794-39a9-42ec-bb46-f5ea7021aa0a@germania-kalender
-DTSTAMP:20261122T130549Z
+DTSTAMP:20261125T151859Z
 DTSTART;TZID=Europe/Madrid:20261101T190000
 DTEND;TZID=Europe/Madrid:20261101T210000
 SUMMARY:⚽ FC Germania Mallorca vs C. F. Playa de Palma
@@ -39,7 +39,7 @@ URL:https://www.germaniamallorca.com/kalender
 END:VEVENT
 BEGIN:VEVENT
 UID:9191dc59-e096-4f85-882d-c73746133684@germania-kalender
-DTSTAMP:20261122T130549Z
+DTSTAMP:20261125T151859Z
 DTSTART;TZID=Europe/Madrid:20261107T150000
 DTEND;TZID=Europe/Madrid:20261107T170000
 SUMMARY:⚽ FC Germania Mallorca vs Independiente C/R
@@ -51,7 +51,7 @@ URL:https://www.germaniamallorca.com/kalender
 END:VEVENT
 BEGIN:VEVENT
 UID:70045018-f9b0-4f76-9c5b-3cddce57c84e@germania-kalender
-DTSTAMP:20261122T130549Z
+DTSTAMP:20261125T151859Z
 DTSTART;TZID=Europe/Madrid:20261114T190000
 DTEND;TZID=Europe/Madrid:20261114T210000
 SUMMARY:⚽ C.D. Sillot vs FC Germania Mallorca
@@ -63,7 +63,7 @@ URL:https://www.germaniamallorca.com/kalender
 END:VEVENT
 BEGIN:VEVENT
 UID:85f8e33e-2d96-41f4-8b3d-a70ed34b9116@germania-kalender
-DTSTAMP:20261122T130549Z
+DTSTAMP:20261125T151859Z
 DTSTART;TZID=Europe/Madrid:20261121T150000
 DTEND;TZID=Europe/Madrid:20261121T170000
 SUMMARY:⚽ FC Germania Mallorca vs Santa Ponsa CF "B"
@@ -75,7 +75,7 @@ URL:https://www.germaniamallorca.com/kalender
 END:VEVENT
 BEGIN:VEVENT
 UID:ac6487d9-5d12-4439-8ce7-160248bf9b38@germania-kalender
-DTSTAMP:20261122T130549Z
+DTSTAMP:20261125T151859Z
 DTSTART;TZID=Europe/Madrid:20261128T160000
 DTEND;TZID=Europe/Madrid:20261128T180000
 SUMMARY:⚽ Margaritense Atlètic vs FC Germania Mallorca
@@ -88,8 +88,20 @@ DESCRIPTION:Auswärtsspiel\nRoute: https://www.google.com/maps/search/?api=
 URL:https://www.germaniamallorca.com/kalender
 END:VEVENT
 BEGIN:VEVENT
+UID:971587cc-caa2-4e6c-bcf8-0fdd51af7d45@germania-kalender
+DTSTAMP:20261125T151859Z
+DTSTART;TZID=Europe/Madrid:20261205T150000
+DTEND;TZID=Europe/Madrid:20261205T170000
+SUMMARY:⚽ FC Germania Mallorca vs FV Dresden 06 Laubegast
+LOCATION:Carrer Lliri\, 2\, 07141 Marratxinet\, Illes Balears
+DESCRIPTION:Heimspiel\nRoute: https://www.google.com/maps/search/?api=1&que
+ ry=Carrer%20Lliri%2C%202%2C%2007141%20Marratxinet%2C%20Illes%20Balears\nFr
+ eundschaftsspiel\nAlle Termine: https://www.germaniamallorca.com/kalender
+URL:https://www.germaniamallorca.com/kalender
+END:VEVENT
+BEGIN:VEVENT
 UID:136ffe6e-15da-4eb8-a322-bed9182f2de5@germania-kalender
-DTSTAMP:20261122T130549Z
+DTSTAMP:20261125T151859Z
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:⚽ FC Germania Mallorca vs Mallorca City FC
@@ -102,7 +114,7 @@ URL:https://www.germaniamallorca.com/kalender
 END:VEVENT
 BEGIN:VEVENT
 UID:4cf5ccb5-e080-4aa7-8e08-2eab520089b8@germania-kalender
-DTSTAMP:20261122T130549Z
+DTSTAMP:20261125T151859Z
 DTSTART;TZID=Europe/Madrid:20261219T170000
 DTEND;TZID=Europe/Madrid:20261219T190000
 SUMMARY:⚽ Alqueria vs FC Germania Mallorca
@@ -115,7 +127,7 @@ URL:https://www.germaniamallorca.com/kalender
 END:VEVENT
 BEGIN:VEVENT
 UID:576e87b8-1ada-44c1-bf03-8372b7a6d8fd@germania-kalender
-DTSTAMP:20261122T130549Z
+DTSTAMP:20261125T151859Z
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:⚽ FC Germania Mallorca vs Palmanyola "A"
@@ -128,7 +140,7 @@ URL:https://www.germaniamallorca.com/kalender
 END:VEVENT
 BEGIN:VEVENT
 UID:d9fdcc0e-105c-4240-b040-d2697c63ebaa@germania-kalender
-DTSTAMP:20261122T130549Z
+DTSTAMP:20261125T151859Z
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:⚽ Taujà vs FC Germania Mallorca

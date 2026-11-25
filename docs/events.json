@@ -79,6 +79,22 @@
     "awayScore": null,
     "ticketLink": null
   },
+  "971587cc-caa2-4e6c-bcf8-0fdd51af7d45": {
+    "id": "971587cc-caa2-4e6c-bcf8-0fdd51af7d45",
+    "type": "match",
+    "title": "FC Germania Mallorca vs FV Dresden 06 Laubegast",
+    "eventDate": "2026-12-05",
+    "date": "5. Dezember 2026",
+    "time": "15:00",
+    "location": "Carrer Lliri, 2, 07141 Marratxinet, Illes Balears",
+    "description": "Freundschaftsspiel",
+    "status": "scheduled",
+    "opponent": "FV Dresden 06 Laubegast",
+    "isHome": true,
+    "homeScore": null,
+    "awayScore": null,
+    "ticketLink": null
+  },
   "136ffe6e-15da-4eb8-a322-bed9182f2de5": {
     "id": "136ffe6e-15da-4eb8-a322-bed9182f2de5",
     "type": "match",
